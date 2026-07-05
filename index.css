@@ -1,0 +1,85 @@
+/*https://www.secret-defense.org/wp-content/uploads/2024/04/1713827409_enigma-et-alan-turing-plongee-au-coeur-du-decryptage-historique.jpg*/
+/*https://bnet339.com/wp-content/uploads/2023/09/Alan_Turing_working_on_the_turing_Machine-1.jpg*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    margin: 25px 15px;
+    background: #f0eded;
+    text-align: center;
+    padding: 15px 0;
+    
+}
+#title{
+    font-family: 'poppins';
+    margin: 26px;
+}
+
+#img-div{
+    max-width: 95%;
+    margin: auto;
+    background-color: snow;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+#image{
+    max-width:100%;
+    height: auto;
+    margin: 15px auto;
+}
+img{
+    display: block;
+}
+#tribute-info{
+    margin: 15px 35px;
+    width: 40%;
+    text-align: start;
+}
+#headline{
+    margin: 25px;
+    padding: 15px;
+}
+
+ul li{
+    margin: 15px;
+    color: #585858;
+}
+ul li b{
+    color: #000;
+}
+ul li::marker{
+    color: #000;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc; 
+  border-radius: 12px;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-style: italic;
+  width: 60%;
+}
+
+
+cite {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: right; 
+}
+
+
+strong{
+    display: block;
+    margin: 25px;
+    font-size: 20px;
+}
+strong a{
+    color: rgb(32, 136, 233);
+}
